@@ -1,0 +1,15 @@
+export { Dashboard } from './Dashboard';
+export { Profile } from './Profile';
+export { Skills } from './Skills';
+export { Projects } from './Projects';
+export { Certificates } from './Certificates';
+export { Internships } from './Internships';
+export { Hackathons } from './Hackathons';
+export { Workshops } from './Workshops';
+export { Compare } from './Compare';
+export { AISuggestions } from './AISuggestions';
+export { Settings } from './Settings';
+export { AIAssistant } from './AIAssistant';
+export { SemesterResults } from './SemesterResults';
+export { StudentDNA } from './StudentDNA';
+export { PlacementPrediction } from './PlacementPrediction';
