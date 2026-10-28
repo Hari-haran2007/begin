@@ -1,7 +1,7 @@
-const mongoose = require("mongoose");
+const mongoose = require("./backend/db/sqlite");
 const User = require("./backend/models/User");
 
-mongoose.connect("mongodb://127.0.0.1:27017/beyond_grades").then(async () => {
+mongoose.connect("./backend/database.sqlite").then(async () => {
   const users = await User.find({});
   console.log("All users:");
   users.forEach(u => console.log(u.full_name, u.role, u._id.toString()));

@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../db/sqlite');
 
 const userSchema = new mongoose.Schema({
   full_name: { type: String, required: true },

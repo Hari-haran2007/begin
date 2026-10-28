@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const mongoose = require('mongoose');
+const mongoose = require('../db/sqlite');
 const MeetingRequest = require('../models/MeetingRequest');
 const User = require('../models/User');
 const auth = require('../middleware/auth');

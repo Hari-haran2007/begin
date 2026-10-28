@@ -36,6 +36,10 @@ backup/
 *.dump
 *.bson
 *.jsonl
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
 
 # Editor & OS files
 .vscode/*

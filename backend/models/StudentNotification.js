@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../db/sqlite');
 
 const studentNotificationSchema = new mongoose.Schema({
   student_id: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },

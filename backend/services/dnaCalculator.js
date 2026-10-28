@@ -387,7 +387,7 @@ function calculateStudentDNA({
     hasEnoughData: validEvidenceScores.length >= 2,
     hasSelfAssessment: Boolean(selfAssessment),
     hasStaffAssessment: Boolean(staffAssessment),
-    lastUpdated: (staffAssessment?.updated_at || selfAssessment?.updated_at || new Date()).toISOString()
+    lastUpdated: new Date(staffAssessment?.updated_at || selfAssessment?.updated_at || Date.now()).toISOString()
   };
 }
 

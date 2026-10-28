@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../db/sqlite');
 
 const MessageSchema = new mongoose.Schema({
   conversationId: {
