@@ -74,7 +74,7 @@ app.use('/api/staff', require('./routes/staff'));
 app.use('/api/messages', require('./routes/messages'));
 app.use('/api/student/messages', require('./routes/messages'));
 app.use('/api/student/notifications', require('./routes/studentNotifications'));
-app.use('/api/meetings', require('./routes/meetings));
+app.use('/api/meetings', require('./routes/meetings'));
 app.use('/api/ai', require('./routes/ai').router);
 
 // Health Check
